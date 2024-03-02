@@ -26,6 +26,8 @@ It might be possible to program the **nRF5340 DK** as a Zigbee Light Bulb Emulat
 Not sure if a **Philips Hue Bridge** would accept this as it may lack the necessary cryptographic information to identifiy it as a **Zigbee Certified Product**.
 ### Rooting the Hue Bridge
 It is possible to [Root a Philips Hue Bridge, v2.1](https://blog.andreibanaru.ro/2018/03/27/philips-hue-2-1-enabling-wifi/). This may provide a way to obtaining the Zigbee encrypted network key which would allow sniffed Zigbee traffic to be decrypted.
+### End-to-End Encryption
+[Philips Hue Secure’s End-to-End Encryption](https://developers.meethue.com/e2ee-whitepaper/)
 
 ## External Discussion
 [Home Assistant Forum](https://community.home-assistant.io/): [Philips Hue Secure Camera without a Hue Bridge?][1]; [Zigbee Direct][2].
