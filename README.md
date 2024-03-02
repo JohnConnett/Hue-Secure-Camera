@@ -28,6 +28,10 @@ Not sure if a **Philips Hue Bridge** would accept this as it may lack the necess
 ## External Discussion
 [Home Assistant Forum](https://community.home-assistant.io/): [Philips Hue Secure Camera without a Hue Bridge?][1]; [Zigbee Direct][2].
 
+[Zigbee2MQTT](https://www.zigbee2mqtt.io/): [New device support: Philips Hue Secure Floodlight Camera EU](https://github.com/Koenkk/zigbee2mqtt/issues/21650).
+
+[ZHA Device Handlers For Home Assistant](https://github.com/zigpy/zha-device-handlers): [Device Support Request: Philips Hue Secure Floodlight Camera EU](https://github.com/zigpy/zha-device-handlers/issues/3017).
+
 ## References
 [1]: https://community.home-assistant.io/t/philips-hue-secure-camera-without-a-hue-bridge/678816  "Philips Hue Secure Camera without a Hue Bridge?"
 [2]: https://community.home-assistant.io/t/zigbee-direct/681653 "Zigbee Direct"
