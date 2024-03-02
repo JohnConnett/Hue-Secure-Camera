@@ -24,6 +24,8 @@ It is possible to sniff traffic on a **Philips Hue Bridge** Zigbee network. Howe
 ### Zigbee Light Bulb Emulator?
 It might be possible to program the **nRF5340 DK** as a Zigbee Light Bulb Emulator that could be commissioned into a **Philips Hue Bridge** Zigbee network to investigate traffic between a **Secure Camera** and a light. Here is the [Zigbee: Light bulb](https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/samples/zigbee/light_bulb/README.html).
 Not sure if a **Philips Hue Bridge** would accept this as it may lack the necessary cryptographic information to identifiy it as a **Zigbee Certified Product**.
+### Rooting the Hue Bridge
+It is possible to [Root a Philips Hue Bridge, v2.1](https://blog.andreibanaru.ro/2018/03/27/philips-hue-2-1-enabling-wifi/). This may provide a way to obtaining the Zigbee encrypted network key which would allow sniffed Zigbee traffic to be decrypted.
 
 ## External Discussion
 [Home Assistant Forum](https://community.home-assistant.io/): [Philips Hue Secure Camera without a Hue Bridge?][1]; [Zigbee Direct][2].
