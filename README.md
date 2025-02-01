@@ -12,9 +12,16 @@ The camera part is not recognised. It can be commissioned into a Zigbee network 
 
 The following hardware is available:
 * 1 x [Philips Hue Secure Flood Light Camera EU](https://www.philips-hue.com/en-gb/p/hue-philips-hue-secure-flood-light-camera-eu/8720169177703)
+* 1 x [Philips Hue Secure Battery Camera](https://www.philips-hue.com/en-gb/p/hue-secure-battery-camera/8719514492950)
 * 1 x [Philips Hue Bridge, v2.1](https://www.philips-hue.com/en-gb/p/hue-bridge/8719514342583)
 * 1 x [nRF52840 Dongle](https://www.nordicsemi.com/Products/Development-hardware/nrf52840-dongle)
 * 1 x [nRF5340 DK](https://www.nordicsemi.com/Products/Development-hardware/nRF5340-DK)
+* 1 x [nRF54L15 DK](https://www.nordicsemi.com/Products/Development-hardware/nRF54L15-DK)
+* 1 x [SparkFun Thing Plus Matter - MGM240P](https://www.sparkfun.com/sparkfun-thing-plus-matter-mgm240p.html)
+* 1 x [Seeed Studio XIAO ESP32C6](https://wiki.seeedstudio.com/xiao_esp32c6_getting_started/)
+
+## Notes
+Adding a camera to the **Philips Hue App** **DOES NOT** add it to the **Philips Hue Bridge** or make it available via the API. To add the camera to the **Philips Hue Bridge** use the **Philips Hue App** Settings -> Cameras -> <camera> -> Trigger lights. The list of selected lights can be empty.
 
 ## Resources
 ### Zigbee Sniffer
